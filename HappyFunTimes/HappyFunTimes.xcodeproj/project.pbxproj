@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577169C81A0C17FE005D4E4D /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577169C71A0C17FE005D4E4D /* AppleScriptObjC.framework */; };
+		577169CD1A0C17FE005D4E4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577169CC1A0C17FE005D4E4D /* main.m */; };
+		577169CF1A0C17FE005D4E4D /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 577169CE1A0C17FE005D4E4D /* AppDelegate.applescript */; };
+		577169D11A0C17FE005D4E4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577169D01A0C17FE005D4E4D /* Images.xcassets */; };
+		577169D41A0C17FE005D4E4D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577169D21A0C17FE005D4E4D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		577169C41A0C17FE005D4E4D /* HappyFunTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyFunTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577169C71A0C17FE005D4E4D /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		577169CB1A0C17FE005D4E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577169CC1A0C17FE005D4E4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577169CE1A0C17FE005D4E4D /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		577169D01A0C17FE005D4E4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		577169D31A0C17FE005D4E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577169C11A0C17FE005D4E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577169C81A0C17FE005D4E4D /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577169BB1A0C17FE005D4E4D = {
+			isa = PBXGroup;
+			children = (
+				577169C91A0C17FE005D4E4D /* HappyFunTimes */,
+				577169C61A0C17FE005D4E4D /* Frameworks */,
+				577169C51A0C17FE005D4E4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577169C51A0C17FE005D4E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577169C41A0C17FE005D4E4D /* HappyFunTimes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577169C61A0C17FE005D4E4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577169C71A0C17FE005D4E4D /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577169C91A0C17FE005D4E4D /* HappyFunTimes */ = {
+			isa = PBXGroup;
+			children = (
+				577169CE1A0C17FE005D4E4D /* AppDelegate.applescript */,
+				577169D01A0C17FE005D4E4D /* Images.xcassets */,
+				577169D21A0C17FE005D4E4D /* MainMenu.xib */,
+				577169CA1A0C17FE005D4E4D /* Supporting Files */,
+			);
+			path = HappyFunTimes;
+			sourceTree = "<group>";
+		};
+		577169CA1A0C17FE005D4E4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577169CB1A0C17FE005D4E4D /* Info.plist */,
+				577169CC1A0C17FE005D4E4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577169C31A0C17FE005D4E4D /* HappyFunTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577169D71A0C17FE005D4E4D /* Build configuration list for PBXNativeTarget "HappyFunTimes" */;
+			buildPhases = (
+				577169C01A0C17FE005D4E4D /* Sources */,
+				577169C11A0C17FE005D4E4D /* Frameworks */,
+				577169C21A0C17FE005D4E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyFunTimes;
+			productName = HappyFunTimes;
+			productReference = 577169C41A0C17FE005D4E4D /* HappyFunTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577169BC1A0C17FE005D4E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Greggman;
+				TargetAttributes = {
+					577169C31A0C17FE005D4E4D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 577169BF1A0C17FE005D4E4D /* Build configuration list for PBXProject "HappyFunTimes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577169BB1A0C17FE005D4E4D;
+			productRefGroup = 577169C51A0C17FE005D4E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577169C31A0C17FE005D4E4D /* HappyFunTimes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577169C21A0C17FE005D4E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577169D11A0C17FE005D4E4D /* Images.xcassets in Resources */,
+				577169D41A0C17FE005D4E4D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577169C01A0C17FE005D4E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577169CF1A0C17FE005D4E4D /* AppDelegate.applescript in Sources */,
+				577169CD1A0C17FE005D4E4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		577169D21A0C17FE005D4E4D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577169D31A0C17FE005D4E4D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		577169D51A0C17FE005D4E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		577169D61A0C17FE005D4E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		577169D81A0C17FE005D4E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HappyFunTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		577169D91A0C17FE005D4E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HappyFunTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577169BF1A0C17FE005D4E4D /* Build configuration list for PBXProject "HappyFunTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577169D51A0C17FE005D4E4D /* Debug */,
+				577169D61A0C17FE005D4E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577169D71A0C17FE005D4E4D /* Build configuration list for PBXNativeTarget "HappyFunTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577169D81A0C17FE005D4E4D /* Debug */,
+				577169D91A0C17FE005D4E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577169BC1A0C17FE005D4E4D /* Project object */;
+}
